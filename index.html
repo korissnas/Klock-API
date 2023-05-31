@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kundapi.css">
+    <title>Klockor jorden runt</title>
+</head>
+<body>
+    
+
+    <main>
+    <div id="headerclock">
+
+       <h1 id="rubrik">KLOCKOR JORDEN RUNT</H1> 
+        <p id="underrubrik">Välj vilken stad du vill se tiden i!</p>
+
+    </div>
+
+    <div id= "clock-box">
+
+        <div class="clocks" >
+           
+            <h2 id="CityOne">New York</h2>
+            <h2 class="tid">11.00</h2>
+
+            <div class="selection">
+
+            <select name="Städer" id="CityChoiceOne">
+                <option class="value="NewYork">New York</option>
+                <option value="Budapest">Budapest</option>
+                <option value="Seoul">Seoul</option>
+                <option value="Lissabon">Lissabon</option>
+                
+              </select>
+
+              <button id="buttonOne">Välj stad</button>
+
+            </div>
+        </div>
+  
+        <div class="clocks" >
+            <h2 id="CityTwo">Budapest</h2>
+            <h2 class="tid">11.00</h2>
+
+            <select name="cities" id="CityChoiceTwo">
+                <option value="NewYork" class="sr-only">New York</option>
+                <option value="Budapest">Budapest</option>
+                <option value="Seoul">Seoul</option>
+                <option value="Lissabon">Lissabon</option>
+              
+ 
+                
+              </select>
+
+              <button id="buttonTwo">Välj stad</button>
+         </div> 
+
+       <div class="clocks" >
+          
+        <h2 id="CityThree">Seoul</h2>
+        <h2 class="tid">12.00</h2>
+
+        <select name="cities" id="CityChoiceThree">
+            <option value="NewYork">New York</option>
+            <option value="Budapest">Budapest</option>
+            <option value="Seoul">Seoul</option>
+            <option value="Lissabon">Lissabon</option>
+    
+            
+          </select>
+
+          <button id="buttonThree">Välj stad</button>
+
+         </div>
+
+        <div class="clocks" >
+            <h2 id="CityFour">Lissabon</h2> 
+            <h2 class="tid">13.00</h2>
+           
+            <select name="cities" id="CityChoiceFour">
+              <option value="NewYork">New York</option>
+              <option value="Budapest">Budapest</option>
+              <option value="Seoul">Seoul</option>
+              <option value="Lissabon">Lissabon</option>
+         
+
+              
+            </select>
+
+            <button id="buttonFour">Välj stad</button>
+         </div>
+
+</div>
+
+<div id="clock-bottom">
+
+    <h1 id="rubrik">VI HAR KONTOR ÖVERALLT</H1> 
+        <p id="underrubrik">Varmt välkommen!</p> 
+</div>
+</main>
+
+    <script src="kundapi.js"> </script>
+
+</html>
+</body>

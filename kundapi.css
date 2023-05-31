@@ -1,0 +1,156 @@
+
+
+:root {
+    --blue: #343ae579;
+    --white: #ffffff;
+    --orange:#e4ef51c7;
+    
+  }
+
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    max-width:800px;
+    max-height: 650px;
+    
+    min-width:50%;
+    min-height:50%;
+
+    margin:auto;
+}  
+body {
+background-color:var(--blue)
+}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+
+div {
+    margin:auto;
+    }
+
+
+#headerclock {
+
+    height:150px;
+    width:81%;
+    align-items: center;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: var(--white);
+
+}
+
+#headerclock > #rubrik {
+    padding-top: 50px;
+    
+    }
+
+#clock-bottom {
+    height:150px;
+    width:81%;
+    margin-top:-25PX;
+    align-items: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background-color: var(--white); 
+}
+
+#headerclock > #rubrik {
+padding-top: 50px;
+
+}
+
+#clock-bottom > #rubrik {
+    padding-top: 25px;
+    
+    }
+
+#underrubrik {
+
+    margin-top:-10px;
+}
+
+#rubrik, #underrubrik{
+
+    text-align: center;
+  
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tid {
+
+    margin-top:-20px;
+    margin-bottom:5px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+
+#clock-box {
+
+    box-sizing: border-box;
+    width:81%;
+    height: 300px; 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+    
+    
+    background-color: var(--orange);
+    border:solid white 4px;
+
+
+}
+
+.clocks {
+
+    width:40%;
+    height:45%;
+    
+    text-align:center;
+    margin:auto 0;
+   
+}
+
+.selection {
+    
+    margin-top:0;
+    width:100%;
+    
+}
+
+select {
+    
+    border:none;
+    
+}
+
+button {
+
+    margin-top: 10px;
+    width:80px;
+    color:var(--white);
+    background-color:var(--blue);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:none;
+}
+
+
+
+
+
+
